@@ -1,6 +1,6 @@
 
-document.addEventListener('DOMContentLoaded',domloaded,false);
-function domloaded(){
+document.addEventListener('DOMContentLoaded',drawboard,false);
+function drawboard(){
     // your code here.
 
 
@@ -11,7 +11,6 @@ var cols = 50;
 var rows = 50;
 var tiles = [];
 
-function drawboard(){
 for (var i = 1; i <= rows; i++) {
     for (var j = 1; j <= cols; j++) {
         // Draw rect
@@ -34,7 +33,7 @@ for (var i = 1; i <= rows; i++) {
     }
       
 }
-}
+
 
 
 canvas.onclick = function(e) {
