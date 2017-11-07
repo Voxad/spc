@@ -1,4 +1,7 @@
 
+document.addEventListener('DOMContentLoaded',domloaded,false);
+function domloaded(){
+    // your code here.
 
 
 var canvas = document.getElementById('canvas');
@@ -44,5 +47,4 @@ alert(tile.id);
 }
 }
 
-
-
+}
