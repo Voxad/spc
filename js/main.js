@@ -42,9 +42,7 @@ if (x > tile.x && x < tile.x+10 && y > tile.y && y < tile.y+10){
 alert(tile.id);
 }
 }
-
-
-function create_personnage() {
-   alert("Hello World");
 }
+
+
 
